@@ -38,6 +38,9 @@ gem 'sitemap_generator'        # サイトマップ生成
 gem 'whenever', :require => false   # cronを登録できる
 gem 'exception_notification'   # エラーが発生したらメールを送ってくれる
 gem 'newrelic_rpm'             # パフォーマンス監視サービスを利用できる
+gem 'simple_form'
+gem 'bootstrap', '~> 4.1.1'
+gem 'jquery-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
