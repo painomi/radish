@@ -149,6 +149,11 @@ GEM
       actionmailer (>= 4.0, < 6)
       activesupport (>= 4.0, < 6)
     execjs (2.7.0)
+    factory_bot (5.0.2)
+      activesupport (>= 4.2.0)
+    factory_bot_rails (5.0.1)
+      factory_bot (~> 5.0.0)
+      railties (>= 4.2.0)
     ffi (1.10.0)
     formatador (0.2.5)
     globalid (0.4.2)
@@ -314,6 +319,14 @@ GEM
     rspec-mocks (3.8.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
+    rspec-rails (3.8.2)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      railties (>= 3.0)
+      rspec-core (~> 3.8.0)
+      rspec-expectations (~> 3.8.0)
+      rspec-mocks (~> 3.8.0)
+      rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
     ruby-graphviz (1.2.4)
     ruby-progressbar (1.10.0)
@@ -398,6 +411,7 @@ DEPENDENCIES
   dotenv-rails
   draper
   exception_notification
+  factory_bot_rails
   guard-livereload
   guard-rspec
   haml-rails
@@ -416,6 +430,7 @@ DEPENDENCIES
   rails_autolink
   rails_best_practices
   rails_config
+  rspec-rails
   sass-rails (~> 5.0)
   sitemap_generator
   spring
