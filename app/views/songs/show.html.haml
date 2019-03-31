@@ -1,0 +1,21 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @song.name
+%p
+  %b Description:
+  = @song.description
+%p
+  %b Lyricist:
+  = @song.lyricist
+%p
+  %b Composer:
+  = @song.composer
+%p
+  %b Arranger:
+  = @song.arranger
+
+= link_to 'Edit', edit_song_path(@song)
+\|
+= link_to 'Back', songs_path
